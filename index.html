@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/hacker/assets/css/style.css?v=8364d7a4a08760768848b0acc836f99ce19ed5ee" rel="stylesheet">
+    <title>Jonah Lin's Projects</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+{"name":"Hacker theme","description":"Hacker is a theme for GitHub Pages.","@type":"WebSite","url":"https://pages-themes.github.io/hacker/","headline":"Hacker theme","@context":"http://schema.org"}</script>
+  </head>
+  <body id="top">
+    <nav>
+      <ul>
+        <li><a href="#top"><i class="fas fa-home"></i></a></li>
+        <li><a href="#educe">EDUCE</a></li>
+        <li><a href="#b">Project 2</a></li>
+        <li><a href="#c">Project 3</a></li>
+      </ul>
+    </nav>
+    <main id="container">
+      <header>
+        <h1>Welcome to Jonah Lin's Projects</h1>
+      </header>
+      <div id="educe">
+        <h1>EDUCE Project</h1>
+        <h5>Project Duration: 4 Months (May - Aug. 2018)</h5>
+        <h2>What is the EDUCE Project?</h2>
+        <p>Experiential Data science for Undergraduate Cross-disciplinary Education:
+          A program for data science education in microbiology at the University of British Columbia.</p>
+        <h2>Project Supervisors:</h2>
+        <ol id="supervisors">
+          <li>Dr. Steven Hallam (Microbiology)</li>
+          <li>Dr. Kim Dill-McFarland (Microbiology)</li>
+          <li>Dr. Reid Holmes (Computer Science)</li>
+        </ol>
+        <h2>Project Components:</h2>
+        <ol id="educe-components">
+          <li>Website Design with R</li>
+          <li>R Shiny App Designs:
+            <ol id="app-components">
+              <li>Course Compiler</li>
+              <li>Data Manipulator</li>
+            </ol>
+          </li>
+          <li>User-Generated Integration Testing</li>
+        </ol>
+        <section>
+          <a href="https://educe-ubc.github.io/" class="btn">EDUCE Project Link</a>
+        </section>
+      </div>
+      <div id="b">
+        <h1>Project 2</h1>
+        <h5>Project Duration: ???</h5>
+        <h2>Q1</h2>
+        <p>Placeholder</p>
+        <h2>Project Components:</h2>
+        <section>
+          <a href="https://educe-ubc.github.io/" class="btn">Project Link</a>
+        </section>
+      </div>
+      <div id="c">
+        <h1>Project 3</h1>
+        <h5>Project Duration: ???</h5>
+        <h2>Q1</h2>
+        <p>Placeholder</p>
+        <h2>Project Components:</h2>
+        <section>
+          <a href="https://educe-ubc.github.io/" class="btn">Project Link</a>
+        </section>
+      </div>
+      <footer>
+        FOOTER
+      </footer>
+      <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('a[href^="#"]').on('click',function (e) {e.preventDefault();
+
+    		var target = this.hash;
+    		var $target = $(target);
+
+    		$('html, body').stop().animate({
+    	        'scrollTop': $target.offset().top-50
+    		}, 900, 'swing', function () {
+    	        window.location.hash = target-50;
+    		});
+    	       });
+    });
+    </script>
+    </main>
+  </body>
+</html>
