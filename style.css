@@ -72,19 +72,20 @@ nav li {
 #educe {
   grid-area: educe;
   background: #17244D;
+  text-align: center;
 }
 
 #educe h1 {
   background: #081334;
 }
 
-#educe ol {
+ol {
   display: table;
-  margin: 5px 35px;
+  margin: 5px auto;
   font-size: 16px;
 }
 
-#supervisors li {
+li {
   list-style: square;
 }
 
@@ -113,6 +114,7 @@ nav li {
 #misc {
   grid-area: b;
   background-color: #724318;
+  text-align: center;
 }
 
 #misc h1 {
