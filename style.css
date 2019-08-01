@@ -85,7 +85,7 @@ ol {
   font-size: 16px;
 }
 
-li {
+#list li {
   list-style: square;
 }
 
